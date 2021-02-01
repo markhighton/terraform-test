@@ -1,5 +1,5 @@
 trigger:
-- master
+- main
 
 variables:
   resource_group_tfstate: 'tfstate-uks-rg'
