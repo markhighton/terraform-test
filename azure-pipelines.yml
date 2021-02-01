@@ -2,10 +2,10 @@ trigger:
 - main
 
 variables:
-  resource_group_tfstate: 'tfstate-uks-rg'
+  resource_group_tfstate: 'terraform-mh-test-rg'
   product: 'staticsite'
   shortcode: 'lg'  
-
+  
 stages:
 - stage: dev
   variables:    
